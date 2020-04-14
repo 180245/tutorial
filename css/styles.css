@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+*
+{
+	margin: 0;
+	padding: 0;
+}
 body p {
     font-family: 'Sriracha', cursive;
     font-family: 'Coda Caption', sans-serif;
@@ -8,6 +13,7 @@ body p {
 .title {
 	text-align: center;
   color: teal;
+	
 }
 body {
     background-image: url(../images/background.png);
@@ -16,18 +22,14 @@ body {
 }
 
 div.container {
-   height: 10em;
-   position: relative }              
+    height: 10em;
+    position: relative }
 div.container p {
-   margin: 0;
-   position: absolute;               
-   top: 50%;                         
-   transform: translate(0, -50%);
-   text-align: center
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 
-*
-{
-	margin: 0;
-	padding: 0;
-}
